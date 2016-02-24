@@ -76,7 +76,7 @@ main()
 {
   current = 0;
 
-  stmr(5000);
+  stmr(30);
   ivec(alltraps);
   
   task1_sp = &task1_stack;
